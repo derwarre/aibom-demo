@@ -1,0 +1,21 @@
+# Prompt templates for AcmeSupport AI
+summarize_ticket:
+  model: gpt-4o-mini
+  template: |
+    Summarize this support ticket in two sentences, preserving order ids:
+    {ticket_text}
+
+draft_reply:
+  model: gpt-4o
+  template: |
+    Draft a polite reply to the customer below. Do not promise refunds
+    unless refund_eligibility confirmed eligibility.
+    Ticket: {ticket_text}
+    KB context: {kb_context}
+
+escalation_note:
+  model: claude-sonnet-4-5
+  template: |
+    Write an internal escalation note for a human agent. Include sentiment,
+    the customer's ask, and what was already attempted.
+    Conversation: {conversation}

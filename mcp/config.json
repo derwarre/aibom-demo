@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "acme-support-desk": {
+      "command": "python",
+      "args": ["app/mcp_server.py"],
+      "transport": "stdio"
+    },
+    "acme-crm": {
+      "url": "https://crm.internal.acme.example/mcp",
+      "transport": "http"
+    }
+  }
+}

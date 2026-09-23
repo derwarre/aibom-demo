@@ -1,0 +1,22 @@
+# aibom: concept=guardrail framework=internal
+# Guardrail policy for AcmeSupport AI
+input_guards:
+  prompt_injection:
+    enabled: true
+    action: block
+  jailbreak_detection:
+    enabled: true
+    action: block
+output_guards:
+  pii_redaction:
+    enabled: true
+    action: redact
+    entities: [ssn, credit_card, email, phone]
+  toxicity:
+    enabled: true
+    threshold: 0.8
+    action: block
+  hallucination_check:
+    enabled: true
+    requires: kb_grounding
+    action: flag

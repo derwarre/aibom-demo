@@ -1,0 +1,12 @@
+{"ticket_id": "T-1001", "text": "My order ORD-448 never arrived, tracking is stuck", "label": "shipping"}
+{"ticket_id": "T-1002", "text": "I want my money back for ORD-501, the blender is broken", "label": "refund"}
+{"ticket_id": "T-1003", "text": "Where is my package ORD-777, it has been two weeks", "label": "shipping"}
+{"ticket_id": "T-1004", "text": "The app crashes when I open settings on my phone", "label": "troubleshooting"}
+{"ticket_id": "T-1005", "text": "Please cancel ORD-802 and refund my card", "label": "refund"}
+{"ticket_id": "T-1006", "text": "How do I reset the device to factory settings", "label": "troubleshooting"}
+{"ticket_id": "T-1007", "text": "Package arrived damaged, box was crushed", "label": "shipping"}
+{"ticket_id": "T-1008", "text": "Refund for duplicate charge on ORD-233 please", "label": "refund"}
+{"ticket_id": "T-1009", "text": "Screen flickers after the latest firmware update", "label": "troubleshooting"}
+{"ticket_id": "T-1010", "text": "My delivery went to the wrong address", "label": "shipping"}
+{"ticket_id": "T-1011", "text": "Charged twice for one order, want a refund", "label": "refund"}
+{"ticket_id": "T-1012", "text": "Bluetooth will not pair with my laptop", "label": "troubleshooting"}
